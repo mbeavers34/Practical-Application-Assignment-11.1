@@ -12,7 +12,9 @@ The original data contains several thousand entrys, so removing bad data  will s
 Since I am assuming that the car dealer is interested in selling the most cars/trucks, I will select the models and type from the top 3 selling vehicles.
 
 How the plan unfolded.
-The data is messy. Lots of NaN's, and possible similar but different e.g. F-150 and F150. I did remove the large # of NaNs, but left the similarbut differet data alone. I also ended up running several types of regressions hoping to find something consistant, but was ultimatly dissapointed in being able to predict prices on the entire data set.  Price prediction by model or type were much better. 
+
+The data is messy.
+Lots of NaN's, and possible similar but different e.g. F-150 and F150 entries. I did remove the large # of NaNs, but left the similar but differet data alone. I also ended up running several types of regressions hoping to find something accurate, but was ultimatly dissapointed in being able to predict prices on the entire data set.  Price prediction by model or type were much better. 
 
 The final analysis: 
 There are only two factors in a used car that are consistent between the different makes and models of cars. These are Milage and odometer reading. 
